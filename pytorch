@@ -1,0 +1,6 @@
+import torch
+
+x = torch.arange(1,11)
+print(x, x.shape, x.ndim)
+x_reshaped = x.reshape(2, 5)
+print(x_reshaped, x_reshaped.ndim)
